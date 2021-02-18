@@ -1,0 +1,520 @@
+Simulasi Percobaan Neutron simneut27rev15 + revisi fantom & TLD + par 2B
+1 1 -19.3 -1 imp:n=1 imp:p=1 imp:e=1 $Target Wolfram 
+2 2 -8.96 -2 imp:n=1 imp:p=1 imp:e=1 $Target Copper
+3 0 -3 #1 #2 imp:n=1 imp:p=1 imp:e=1 $vakum kolimator lingkaran !pusat
+4 0 -4 #1 #2 #3 imp:n=1 imp:p=1 imp:e=1 $vakum kolimator silinder
+5 0 -5 #1 #2 #3 #4 imp:n=1 imp:p=1 imp:e=1 $vakum kolimator TRC
+6 6 -1.85 -6 imp:n=1 imp:p=1 imp:e=1 $Kaca vakum 
+7 1 -18 -7 #1 #2 #3 #4 #5 imp:n=1 imp:p=1 imp:e=1 $Kolimator utama
+998 5 -0.001205 -998 #1 #2 #3 #4 #5 #6 #7 imp:n=1 imp:p=1 imp:e=1 $Permukaan udara kolimator
+21 1 -16.9 -21 imp:n=1 imp:p=1 imp:e=1 $FF
+22 1 -16.9 -22 imp:n=1 imp:p=1 imp:e=1 
+23 1 -16.9 -23 imp:n=1 imp:p=1 imp:e=1
+24 1 -16.9 -24 imp:n=1 imp:p=1 imp:e=1
+25 1 -16.9 -25 imp:n=1 imp:p=1 imp:e=1
+26 1 -16.9 -26 imp:n=1 imp:p=1 imp:e=1
+27 1 -16.9 -27 imp:n=1 imp:p=1 imp:e=1
+28 1 -16.9 -28 imp:n=1 imp:p=1 imp:e=1
+29 1 -16.9 -29 imp:n=1 imp:p=1 imp:e=1
+30 1 -16.9 -30 imp:n=1 imp:p=1 imp:e=1
+31 1 -16.9 -31 imp:n=1 imp:p=1 imp:e=1
+32 1 -16.9 -32 imp:n=1 imp:p=1 imp:e=1
+33 1 -16.9 -33 imp:n=1 imp:p=1 imp:e=1
+34 1 -16.9 -34 imp:n=1 imp:p=1 imp:e=1
+35 1 -16.9 -35 imp:n=1 imp:p=1 imp:e=1
+36 1 -16.9 -36 imp:n=1 imp:p=1 imp:e=1
+37 1 -16.9 -37 imp:n=1 imp:p=1 imp:e=1
+38 1 -16.9 -38 imp:n=1 imp:p=1 imp:e=1
+997 5 -0.001205 -997 21 16I 38 imp:n=1 imp:p=1 imp:e=1
+51 7 -1.42 -51 imp:n=1 imp:p=1 imp:e=1 $0.013cm kapton
+52 2 -8.96 -52 imp:n=1 imp:p=1 imp:e=1 $5microm copper
+53 5 -0.001205 -53 imp:n=1 imp:p=1 imp:e=1 $lapisan udara pertama setebal 0.311cm
+54 7 -1.42 -54 imp:n=1 imp:p=1 imp:e=1 $kapton 0.005cm
+55 2 -8.96 -55 imp:n=1 imp:p=1 imp:e=1 $5microm copper
+56 5 -0.001205 -56 imp:n=1 imp:p=1 imp:e=1 $lapisan udara kedua setebal 0.099cm
+57 2 -8.96 -57 imp:n=1 imp:p=1 imp:e=1 $5microm copper
+58 7 -1.42 -58 imp:n=1 imp:p=1 imp:e=1 $kapton 0.005cm 
+59 5 -0.001205 -59 imp:n=1 imp:p=1 imp:e=1 $lapisan udara ketiga setebal 0.316cm
+60 2 -8.96 -60 imp:n=1 imp:p=1 imp:e=1 $5microm copper
+61 7 -1.42 -61 imp:n=1 imp:p=1 imp:e=1 $0.013cm kapton
+62 5 -0.001205 -62 imp:n=1 imp:p=1 imp:e=1 $lapisan udara keempat setebal 0.316cm
+63 2 -8.96 -63 imp:n=1 imp:p=1 imp:e=1 $5microm copper
+64 7 -1.42 -64 imp:n=1 imp:p=1 imp:e=1 $0.005cm kapton
+65 5 -0.001205 -65 imp:n=1 imp:p=1 imp:e=1 $lapisan udara kelima setebal 0.099cm
+66 7 -1.42 -66 imp:n=1 imp:p=1 imp:e=1 $0.005cm kapton
+67 2 -8.96 -67 imp:n=1 imp:p=1 imp:e=1 $5microm copper
+68 5 -0.001205 -68 imp:n=1 imp:p=1 imp:e=1 $lapisan udara keenam setebal 0.311cm 
+69 2 -8.96 -69 imp:n=1 imp:p=1 imp:e=1 $5microm copper 
+70 7 -1.42 -70 imp:n=1 imp:p=1 imp:e=1 $0.013cm kapton
+71 5 -0.001205 -71 imp:n=1 imp:p=1 imp:e=1 $dummy udara bagian atas untuk membentuk guard ring
+72 5 -0.001205 -72 imp:n=1 imp:p=1 imp:e=1 $dummy udara bagian bawah untuk membentuk guard ring
+73 1 -19.6 -73 #51 #52 #53 #54 #55 #56 #57 #58 #59 #60 #61 #62 #63 #64 
+     #65 #66 #67 #68 #69 #70 #71 #72 imp:n=1 imp:p=1 imp:e=1 $ring guard monitor ion chamber yang mempunyai 'lebih' 0.2 cm 
+996 5 -0.001205 -996 #51 #52 #53 #54 #55 #56 #57 #58 #59 #60 #61 #62 #63 
+     64 #65 #66 #67 #68 #69 #70 #71 #72 #73 imp:n=1 imp:p=1 imp:e=1
+81 1 -19.3 -81 imp:n=1 imp:p=1 imp:e=1 $Jaws y kiri
+82 1 -19.3 -82 imp:n=1 imp:p=1 imp:e=1 $Jaws y kanan
+83 1 -19.3 -83 imp:n=1 imp:p=1 imp:e=1 $Jaws x distal
+84 1 -19.3 -84 imp:n=1 imp:p=1 imp:e=1 $Jaws x proksimal
+995 5 -0.001205 -995 #81 #82 #83 #84 imp:n=1 imp:p=1 imp:e=1 
+101 9 -0.998207 -101 803 94I 898 imp:n=1 imp:p=1 imp:e=1 $fantom water equivalent 
+898 4 -2.47 -898 imp:n=1 imp:p=1 imp:e=1
+897 4 -2.47 -897 imp:n=1 imp:p=1 imp:e=1
+896 4 -2.47 -896 imp:n=1 imp:p=1 imp:e=1
+895 4 -2.47 -895 imp:n=1 imp:p=1 imp:e=1
+894 4 -2.47 -894 imp:n=1 imp:p=1 imp:e=1
+893 4 -2.47 -893 imp:n=1 imp:p=1 imp:e=1
+892 4 -2.47 -892 imp:n=1 imp:p=1 imp:e=1
+891 4 -2.47 -891 imp:n=1 imp:p=1 imp:e=1
+890 4 -2.47 -890 imp:n=1 imp:p=1 imp:e=1
+889 4 -2.47 -889 imp:n=1 imp:p=1 imp:e=1
+888 4 -2.47 -888 imp:n=1 imp:p=1 imp:e=1
+887 4 -2.47 -887 imp:n=1 imp:p=1 imp:e=1
+886 4 -2.47 -886 imp:n=1 imp:p=1 imp:e=1
+885 4 -2.47 -885 imp:n=1 imp:p=1 imp:e=1
+884 4 -2.47 -884 imp:n=1 imp:p=1 imp:e=1
+883 4 -2.47 -883 imp:n=1 imp:p=1 imp:e=1
+882 4 -2.47 -882 imp:n=1 imp:p=1 imp:e=1
+881 4 -2.47 -881 imp:n=1 imp:p=1 imp:e=1
+880 4 -2.47 -880 imp:n=1 imp:p=1 imp:e=1
+879 4 -2.47 -879 imp:n=1 imp:p=1 imp:e=1
+878 4 -2.47 -878 imp:n=1 imp:p=1 imp:e=1
+877 4 -2.47 -877 imp:n=1 imp:p=1 imp:e=1
+876 4 -2.47 -876 imp:n=1 imp:p=1 imp:e=1
+875 4 -2.47 -875 imp:n=1 imp:p=1 imp:e=1
+874 4 -2.47 -874 imp:n=1 imp:p=1 imp:e=1
+873 4 -2.47 -873 imp:n=1 imp:p=1 imp:e=1
+872 4 -2.47 -872 imp:n=1 imp:p=1 imp:e=1
+871 4 -2.47 -871 imp:n=1 imp:p=1 imp:e=1
+870 4 -2.47 -870 imp:n=1 imp:p=1 imp:e=1
+869 4 -2.47 -869 imp:n=1 imp:p=1 imp:e=1
+868 4 -2.47 -868 imp:n=1 imp:p=1 imp:e=1
+867 4 -2.47 -867 imp:n=1 imp:p=1 imp:e=1
+866 4 -2.47 -866 imp:n=1 imp:p=1 imp:e=1
+865 4 -2.47 -865 imp:n=1 imp:p=1 imp:e=1
+864 4 -2.47 -864 imp:n=1 imp:p=1 imp:e=1
+863 4 -2.47 -863 imp:n=1 imp:p=1 imp:e=1
+862 4 -2.47 -862 imp:n=1 imp:p=1 imp:e=1
+861 4 -2.47 -861 imp:n=1 imp:p=1 imp:e=1
+860 4 -2.47 -860 imp:n=1 imp:p=1 imp:e=1
+859 4 -2.47 -859 imp:n=1 imp:p=1 imp:e=1
+858 4 -2.47 -858 imp:n=1 imp:p=1 imp:e=1
+857 4 -2.47 -857 imp:n=1 imp:p=1 imp:e=1
+856 4 -2.47 -856 imp:n=1 imp:p=1 imp:e=1
+855 4 -2.47 -855 imp:n=1 imp:p=1 imp:e=1
+854 4 -2.47 -854 imp:n=1 imp:p=1 imp:e=1
+853 4 -2.47 -853 imp:n=1 imp:p=1 imp:e=1
+852 4 -2.47 -852 imp:n=1 imp:p=1 imp:e=1
+851 4 -2.47 -851 imp:n=1 imp:p=1 imp:e=1
+850 4 -2.47 -850 imp:n=1 imp:p=1 imp:e=1
+849 4 -2.47 -849 imp:n=1 imp:p=1 imp:e=1
+848 4 -2.47 -848 imp:n=1 imp:p=1 imp:e=1
+847 4 -2.47 -847 imp:n=1 imp:p=1 imp:e=1
+846 4 -2.47 -846 imp:n=1 imp:p=1 imp:e=1
+845 4 -2.47 -845 imp:n=1 imp:p=1 imp:e=1
+844 4 -2.47 -844 imp:n=1 imp:p=1 imp:e=1
+843 4 -2.47 -843 imp:n=1 imp:p=1 imp:e=1
+842 4 -2.47 -842 imp:n=1 imp:p=1 imp:e=1
+841 4 -2.47 -841 imp:n=1 imp:p=1 imp:e=1
+840 4 -2.47 -840 imp:n=1 imp:p=1 imp:e=1
+839 4 -2.47 -839 imp:n=1 imp:p=1 imp:e=1
+838 4 -2.47 -838 imp:n=1 imp:p=1 imp:e=1
+837 4 -2.47 -837 imp:n=1 imp:p=1 imp:e=1
+836 4 -2.47 -836 imp:n=1 imp:p=1 imp:e=1
+835 4 -2.47 -835 imp:n=1 imp:p=1 imp:e=1
+834 4 -2.47 -834 imp:n=1 imp:p=1 imp:e=1
+833 4 -2.47 -833 imp:n=1 imp:p=1 imp:e=1
+832 4 -2.47 -832 imp:n=1 imp:p=1 imp:e=1
+831 4 -2.47 -831 imp:n=1 imp:p=1 imp:e=1
+830 4 -2.47 -830 imp:n=1 imp:p=1 imp:e=1
+829 4 -2.47 -829 imp:n=1 imp:p=1 imp:e=1
+828 4 -2.47 -828 imp:n=1 imp:p=1 imp:e=1
+827 4 -2.47 -827 imp:n=1 imp:p=1 imp:e=1
+826 4 -2.47 -826 imp:n=1 imp:p=1 imp:e=1
+825 4 -2.47 -825 imp:n=1 imp:p=1 imp:e=1
+824 4 -2.47 -824 imp:n=1 imp:p=1 imp:e=1
+823 4 -2.47 -823 imp:n=1 imp:p=1 imp:e=1
+822 4 -2.47 -822 imp:n=1 imp:p=1 imp:e=1
+821 4 -2.47 -821 imp:n=1 imp:p=1 imp:e=1
+820 4 -2.47 -820 imp:n=1 imp:p=1 imp:e=1
+819 4 -2.47 -819 imp:n=1 imp:p=1 imp:e=1
+818 4 -2.47 -818 imp:n=1 imp:p=1 imp:e=1
+817 4 -2.47 -817 imp:n=1 imp:p=1 imp:e=1
+816 4 -2.47 -816 imp:n=1 imp:p=1 imp:e=1
+815 4 -2.47 -815 imp:n=1 imp:p=1 imp:e=1
+814 4 -2.47 -814 imp:n=1 imp:p=1 imp:e=1
+813 4 -2.47 -813 imp:n=1 imp:p=1 imp:e=1
+812 4 -2.47 -812 imp:n=1 imp:p=1 imp:e=1
+811 4 -2.47 -811 imp:n=1 imp:p=1 imp:e=1
+810 4 -2.47 -810 imp:n=1 imp:p=1 imp:e=1
+809 4 -2.47 -809 imp:n=1 imp:p=1 imp:e=1
+808 4 -2.47 -808 imp:n=1 imp:p=1 imp:e=1
+807 4 -2.47 -807 imp:n=1 imp:p=1 imp:e=1
+806 4 -2.47 -806 imp:n=1 imp:p=1 imp:e=1
+805 4 -2.47 -805 imp:n=1 imp:p=1 imp:e=1
+804 4 -2.47 -804 imp:n=1 imp:p=1 imp:e=1
+803 4 -2.47 -803 imp:n=1 imp:p=1 imp:e=1
+994 5 -0.001205 -994 101 803 94I 898 imp:n=1 imp:p=1 imp:e=1
+999 0 998 997 996 995 994 imp:n=0 imp:p=0 imp:e=0 $Daerah Void !nomor progresif
+
+===
+LINAC HEAD IS BEING CUT-OUT TO RESPECT THE COMPANY (Varian)
+===
+997 rpp -100 100 -100 100 -14 -8 $Permukaan udara FF
+51 3 rcc 0 0 0 0 0 -0.0130 5.0 $excess 0.2 cm untuk membentuk guard ring ion chamber
+52 3 rcc 0 0 -0.0130 0 0 -0.0005 5.0
+53 3 rcc 0 0 -0.0135 0 0 -0.3110 5.0
+54 3 rcc 0 0 -0.3245 0 0 -0.0050 5.0
+55 3 rcc 0 0 -0.3295 0 0 -0.0005 5.0
+56 3 rcc 0 0 -0.3300 0 0 -0.0990 5.0
+57 3 rcc 0 0 -0.4290 0 0 -0.0005 5.0
+58 3 rcc 0 0 -0.4295 0 0 -0.0050 5.0
+59 3 rcc 0 0 -0.4345 0 0 -0.3160 5.0 
+60 3 rcc 0 0 -0.7505 0 0 -0.0005 5.0 
+61 3 rcc 0 0 -0.7510 0 0 -0.0130 5.0
+62 3 rcc 0 0 -0.7640 0 0 -0.3160 5.0 
+63 3 rcc 0 0 -1.0800 0 0 -0.0005 5.0
+64 3 rcc 0 0 -1.0805 0 0 -0.0050 5.0
+65 3 rcc 0 0 -1.0855 0 0 -0.0990 5.0
+66 3 rcc 0 0 -1.1845 0 0 -0.0050 5.0
+67 3 rcc 0 0 -1.1895 0 0 -0.0005 5.0
+68 3 rcc 0 0 -1.1900 0 0 -0.3110 5.0
+69 3 rcc 0 0 -1.5010 0 0 -0.0005 5.0
+70 3 rcc 0 0 -1.5015 0 0 -0.0130 5.0
+71 3 rcc 0 0 0 0 0 0.68 4.90 
+72 3 rcc 0 0 -1.5145 0 0 -0.69 4.90
+73 3 rcc 0 0 0.68 0 0 -2.8845 5.2
+996 rpp -100 100 -100 100 -18 -14 $Permukaan udara ion chamber
+81 box 7.5 -1.4048416585 -28.12493 -15 0 0  
+     0 -0.3877 -7.7609 0 -9.995 0.499306 $Jaws y kiri
+82 box 7.5 1.4048416585 -28.12493 -15 0 0 
+     0 0.3877 -7.7609 0 9.995 0.499306 $Jaws y kanan
+83 box -1.8323775 7.5 -36.6842 0 -15 0
+     -0.3895 0 -7.79085 -10.166 0 0.508245 $Jaws x distal 
+84 box 1.8323775 7.5 -36.6842 0 -15 0
+     0.3895 0 -7.79085 10.166 0 0.508245 $Jaws x proksimal
+995 rpp -100 100 -100 100 -90 -18 $Permukaan udara jaws
+101 5 rpp -25 25 -25 25 -35 0
+898 7 rpp -0.16 0.16 -10.16 -9.84 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm --- TLD melintang permukaan
+897 7 rpp -0.16 0.16 -9.16 -8.84 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+896 7 rpp -0.16 0.16 -8.16 -7.84 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+895 7 rpp -0.16 0.16 -7.16 -6.84 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+894 7 rpp -0.16 0.16 -6.16 -5.84 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+893 7 rpp -0.16 0.16 -5.16 -4.84 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+892 7 rpp -0.16 0.16 -4.16 -3.84 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+891 7 rpp -0.16 0.16 -3.16 -2.84 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+890 7 rpp -0.16 0.16 -2.16 -1.84 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+889 7 rpp -0.16 0.16 -1.16 -0.84 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm 
+888 7 rpp -0.16 0.16 -0.16 0.16 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm --- 0cm permukaan
+887 7 rpp -0.16 0.16 0.84 1.16 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+886 7 rpp -0.16 0.16 1.84 2.16 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+885 7 rpp -0.16 0.16 2.84 3.16 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+884 7 rpp -0.16 0.16 3.84 4.16 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+883 7 rpp -0.16 0.16 4.84 5.16 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+882 7 rpp -0.16 0.16 5.84 6.16 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+881 7 rpp -0.16 0.16 6.84 7.16 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+880 7 rpp -0.16 0.16 7.84 8.16 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+879 7 rpp -0.16 0.16 8.84 9.16 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+878 7 rpp -0.16 0.16 9.84 10.16 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+877 7 rpp -0.16 0.16 -0.16 0.16 -1 -0.911 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm --- TLD PDD
+876 7 rpp -0.16 0.16 -0.16 0.16 -2 -1.911 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm --- 0cm kedalaman 2cm
+875 7 rpp -0.16 0.16 -0.16 0.16 -3 -2.911 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm --- 0cm kedalaman 3cm
+874 7 rpp -0.16 0.16 -0.16 0.16 -4 -3.911 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+873 7 rpp -0.16 0.16 -0.16 0.16 -5 -4.911 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+872 7 rpp -0.16 0.16 -0.16 0.16 -6 -5.911 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+871 7 rpp -0.16 0.16 -0.16 0.16 -7 -6.911 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+870 7 rpp -0.16 0.16 -0.16 0.16 -8 -7.911 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+869 7 rpp -0.16 0.16 -0.16 0.16 -9 -8.911 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+868 7 rpp -0.16 0.16 -0.16 0.16 -10 -9.911 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+867 7 rpp -0.16 0.16 -0.16 0.16 -11 -10.911 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+866 7 rpp -0.16 0.16 -0.16 0.16 -12 -11.911 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+865 7 rpp -0.16 0.16 -0.16 0.16 -13 -12.911 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+864 7 rpp -0.16 0.16 -0.16 0.16 -14 -13.911 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+863 7 rpp -0.16 0.16 -0.16 0.16 -15 -14.911 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm --- 0cm kedalaman 15cm
+862 8 rpp -0.16 0.16 -10.16 -9.84 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm --- TLD melintang 2cm
+861 8 rpp -0.16 0.16 -9.16 -8.84 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+860 8 rpp -0.16 0.16 -8.16 -7.84 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+859 8 rpp -0.16 0.16 -7.16 -6.84 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+858 8 rpp -0.16 0.16 -6.16 -5.84 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+857 8 rpp -0.16 0.16 -5.16 -4.84 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+856 8 rpp -0.16 0.16 -4.16 -3.84 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+855 8 rpp -0.16 0.16 -3.16 -2.84 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+854 8 rpp -0.16 0.16 -2.16 -1.84 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+853 8 rpp -0.16 0.16 -1.16 -0.84 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+852 8 rpp -0.16 0.16 0.84 1.16 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+851 8 rpp -0.16 0.16 1.84 2.16 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+850 8 rpp -0.16 0.16 2.84 3.16 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+849 8 rpp -0.16 0.16 3.84 4.16 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+848 8 rpp -0.16 0.16 4.84 5.16 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+847 8 rpp -0.16 0.16 5.84 6.16 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+846 8 rpp -0.16 0.16 6.84 7.16 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+845 8 rpp -0.16 0.16 7.84 8.16 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+844 8 rpp -0.16 0.16 8.84 9.16 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+843 8 rpp -0.16 0.16 9.84 10.16 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+842 9 rpp -0.16 0.16 -10.16 -9.84 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm --- TLD melintang 3cm
+841 9 rpp -0.16 0.16 -9.16 -8.84 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+840 9 rpp -0.16 0.16 -8.16 -7.84 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 m
+839 9 rpp -0.16 0.16 -7.16 -6.84 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+838 9 rpp -0.16 0.16 -6.16 -5.84 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+837 9 rpp -0.16 0.16 -5.16 -4.84 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+836 9 rpp -0.16 0.16 -4.16 -3.84 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+835 9 rpp -0.16 0.16 -3.16 -2.84 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+834 9 rpp -0.16 0.16 -2.16 -1.84 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+833 9 rpp -0.16 0.16 -1.16 -0.84 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+832 9 rpp -0.16 0.16 0.84 1.16 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+831 9 rpp -0.16 0.16 1.84 2.16 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+830 9 rpp -0.16 0.16 2.84 3.16 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+829 9 rpp -0.16 0.16 3.84 4.16 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+828 9 rpp -0.16 0.16 4.84 5.16 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+827 9 rpp -0.16 0.16 5.84 6.16 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+826 9 rpp -0.16 0.16 6.84 7.16 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+825 9 rpp -0.16 0.16 7.84 8.16 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+824 9 rpp -0.16 0.16 8.84 9.16 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+823 9 rpp -0.16 0.16 9.84 10.16 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+822 10 rpp -0.16 0.16 -10.16 -9.84 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm --- TLD melintang 15cm
+821 10 rpp -0.16 0.16 -9.16 -8.84 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+820 10 rpp -0.16 0.16 -8.16 -7.84 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+819 10 rpp -0.16 0.16 -7.16 -6.84 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+818 10 rpp -0.16 0.16 -6.16 -5.84 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+817 10 rpp -0.16 0.16 -5.16 -4.84 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+816 10 rpp -0.16 0.16 -4.16 -3.84 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+815 10 rpp -0.16 0.16 -3.16 -2.84 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+814 10 rpp -0.16 0.16 -2.16 -1.84 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+813 10 rpp -0.16 0.16 -1.16 -0.84 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+812 10 rpp -0.16 0.16 0.84 1.16 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+811 10 rpp -0.16 0.16 1.84 2.16 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+810 10 rpp -0.16 0.16 2.84 3.16 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+809 10 rpp -0.16 0.16 3.84 4.16 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+808 10 rpp -0.16 0.16 4.84 5.16 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+807 10 rpp -0.16 0.16 5.84 6.16 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+806 10 rpp -0.16 0.16 6.84 7.16 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+805 10 rpp -0.16 0.16 7.84 8.16 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+804 10 rpp -0.16 0.16 8.84 9.16 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+803 10 rpp -0.16 0.16 9.84 10.16 0 0.089 $TLD memiliki ukuran 3,2 mm x 3,2 mm x 0,89 mm
+994 rpp -100 100 -100 100 -150 -90
+
+tr1 0 0 -0.3 $Transformasi minor pada kolimator utama
+tr2 0 0 -12.655 $Transformasi sampai outer radius ff
+tr3 0 0 -14.89 $Transformasi ion chamber
+c tr4 0 0 -27.98 $Transformasi jaws
+tr5 0 0 -100.10 $Transformasi fantom
+c tr6 0 0 -110.10 $Transformasi TLD melintang 10cm
+tr7 0 0 -100.10 $Transformasi TLD PDD/ TLD melintang permukaan
+tr8 0 0 -102.10 $Transformasi TLD kedalaman 2cm
+tr9 0 0 -103.10 $Transformasi TLD kedalaman 3cm
+tr10 0 0 -115.10 $Transformasi TLD kedalaman 15cm
+mode n p e
+phys:n 100 0 0 -1 -1 0 0
+phys:p 80 0 0 1 1 0
+phys:e 80 0 0 1 1 1 1 1 0 0 
+m1 74000. -1 $Tungsten/Wolfram alami
+m2 29000. -1 $Copper/Tembaga alami
+c m3 3006. -0.00018704 3007. -0.26701296 9019. -0.73259 12000. -0.0002 
+     22000. -0.00001 $Material TLD-700
+m4 3006. -0.25549664 3007. -0.01170336 9019. -0.73259 12000. -0.0002
+     22000. -0.00001 $Material TLD-600
+m5 7014. -0.755268 8016. -0.231781 18000. -0.012827 6000. -0.000124 gas=1 $Material udara, fase gas
+m6 4009. -1 $Kaca Be 
+m7 6000. -0.691127 1001. -0.026363 7014. -0.073271 8016. -0.209238 $Material KAPTON (C22H10N2O5)
+c m8 6012. -0.903202883 1001. -0.075797117 22000. -0.012586203 
+     8016. -0.008413797 $Materi fantom polistirena RW3
+m9 1001. -0.111894 8016. -0.888106
+sdef pos=0 0 2 rad=0.1 erg=15 dir=1 vec=0 0 -1 axs=0 0 1 par=e
+print
+F16:n 898
+F26:n 897
+F36:n 896
+F46:n 895
+F56:n 894
+F66:n 893
+F76:n 892
+F86:n 891
+F96:n 890
+F106:n 889
+F116:n 888
+F126:n 887
+F136:n 886
+F146:n 885
+F156:n 884
+F166:n 883
+F176:n 882
+F186:n 881
+F196:n 880
+F206:n 879
+F216:n 878
+F226:n 877
+F236:n 876
+F246:n 875
+F256:n 874
+F266:n 873
+F276:n 872
+F286:n 871
+F296:n 870
+F306:n 869
+F316:n 868
+F326:n 867
+F336:n 866
+F346:n 865
+F356:n 864
+F366:n 863
+F376:n 862
+F386:n 861
+F396:n 860
+F406:n 859
+F416:n 858
+F426:n 857
+F436:n 856
+F446:n 855
+F456:n 854
+F466:n 853
+F476:n 852
+F486:n 851
+F496:n 850
+F506:n 849
+F516:n 848
+F526:n 847
+F536:n 846
+F546:n 845
+F556:n 844
+F566:n 843
+F576:n 842
+F586:n 841
+F596:n 840
+F606:n 839
+F616:n 838
+F626:n 837
+F636:n 836
+F646:n 835
+F656:n 834
+F666:n 833
+F676:n 832
+F686:n 831
+F696:n 830
+F706:n 829
+F716:n 828
+F726:n 827
+F736:n 826
+F746:n 825
+F756:n 824
+F766:n 823
+F776:n 822
+F786:n 821
+F796:n 820
+F806:n 819
+F816:n 818
+F826:n 817
+F836:n 816
+F846:n 815
+F856:n 814
+F866:n 813
+F876:n 812
+F886:n 811
+F896:n 810
+F906:n 809
+F916:n 808
+F926:n 807
+F936:n 806
+F946:n 805
+F956:n 804
+F966:n 803
+FM16 2E+9
+FM26 2E+9
+FM36 2E+9
+FM46 2E+9
+FM56 2E+9
+FM66 2E+9
+FM76 2E+9
+FM86 2E+9
+FM96 2E+9
+FM106 2E+9
+FM116 2E+9
+FM126 2E+9
+FM136 2E+9
+FM146 2E+9
+FM156 2E+9
+FM166 2E+9
+FM176 2E+9
+FM186 2E+9
+FM196 2E+9
+FM206 2E+9
+FM216 2E+9
+FM226 2E+9
+FM236 2E+9
+FM246 2E+9
+FM256 2E+9
+FM266 2E+9
+FM276 2E+9
+FM286 2E+9
+FM296 2E+9
+FM306 2E+9
+FM316 2E+9
+FM326 2E+9
+FM336 2E+9
+FM346 2E+9
+FM356 2E+9
+FM366 2E+9
+FM376 2E+9
+FM386 2E+9
+FM396 2E+9
+FM406 2E+9
+FM416 2E+9
+FM426 2E+9
+FM436 2E+9
+FM446 2E+9
+FM456 2E+9
+FM466 2E+9
+FM476 2E+9
+FM486 2E+9
+FM496 2E+9
+FM506 2E+9
+FM516 2E+9
+FM526 2E+9
+FM536 2E+9
+FM546 2E+9
+FM556 2E+9
+FM566 2E+9
+FM576 2E+9
+FM586 2E+9
+FM596 2E+9
+FM606 2E+9
+FM616 2E+9
+FM626 2E+9
+FM636 2E+9
+FM646 2E+9
+FM656 2E+9
+FM666 2E+9
+FM676 2E+9
+FM686 2E+9
+FM696 2E+9
+FM706 2E+9
+FM716 2E+9
+FM726 2E+9
+FM736 2E+9
+FM746 2E+9
+FM756 2E+9
+FM766 2E+9
+FM776 2E+9
+FM786 2E+9
+FM796 2E+9
+FM806 2E+9
+FM816 2E+9
+FM826 2E+9
+FM836 2E+9
+FM846 2E+9
+FM856 2E+9
+FM866 2E+9
+FM876 2E+9
+FM886 2E+9
+FM896 2E+9
+FM906 2E+9
+FM916 2E+9
+FM926 2E+9
+FM936 2E+9
+FM946 2E+9
+FM956 2E+9
+FM966 2E+9
+prdmp -10 -10 1
+cut:e j 0.7
+cut:p j 0.01
+cut:n j 0.000001
+NPS 2000000000
